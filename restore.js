@@ -1,6 +1,7 @@
-(function($) {
 
-  $(document).ready(function() {
+document.addEventListener("DOMContentLoaded", function() {
+  
+   $(document).ready(function() {
   
    var iconMap = {
     'PDF': {
@@ -49,5 +50,7 @@
   });
 });
 
+});
 
-})(jQuery);
+
+ 
