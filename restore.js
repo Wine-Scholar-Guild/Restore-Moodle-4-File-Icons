@@ -35,12 +35,10 @@
             }
         };
 
-
         $('.activity-item').each(function() {
             var _self = $(this);
             var activityType = _self.find('.resourcelinkdetails').text().trim();
             var courseIcon = _self.find('.courseicon img');
-
 
             $.each(iconMap, function(keyword, iconObject) {
                 if (activityType.toLowerCase().includes(keyword.toLowerCase())) {
@@ -55,5 +53,4 @@
         });
 
     }
-
 }())
