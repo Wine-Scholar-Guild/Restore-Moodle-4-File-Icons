@@ -1,5 +1,4 @@
 (function() {
-
     var checkJQueryInterval = setInterval(function() {
         if (window.jQuery) {
             clearInterval(checkJQueryInterval);
@@ -51,6 +50,5 @@
             // Hide or remove activity type
             //_self.find('.resourcelinkdetails').remove();
         });
-
     }
 }())
